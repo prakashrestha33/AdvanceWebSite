@@ -31,13 +31,13 @@
                       </ul>
                   </li>
                   <li>
-                      <a class="" href="">
+                      <a class="" href="{!!URL::to('category')!!}">
                           <i class="icon_genius"></i>
                           <span>Catagories</span>
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href="chart-chartjs.html">
+                      <a class="" href="{!!URL::to('product')!!}">
                           <i class="icon_piechart"></i>
                           <span>Products</span>
                           
