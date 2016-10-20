@@ -24,9 +24,5 @@ Route::post('/home/register', 'HomeController@register_user');
 Route::get('/home/manage_user', 'HomeController@manage_user');
 Route::get('/home/edit_user/{id}', 'HomeController@edit_user');
 Route::get('/home/delete_user/{id}', 'HomeController@delete_user');
-
 Route::resource('category', 'CategoryController');
 Route::resource('product', 'ProductController');
-
-Route::get('/home/products', 'HomeController@products');
-
